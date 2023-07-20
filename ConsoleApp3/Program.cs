@@ -8,11 +8,11 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        Person p1 = new Person("Łukasz Drzewiecki");
+        Person p1 = new Person("Łukasz Drzewiecki", 176,97);
         p1.Weight = 97;
         p1.Age = 176;
 
-        Person p2 = new Person("Dawid Bessman");
+        Person p2 = new Person("Dawid Bessman",16,75 );
         p2.Weight = 75;
         p2.Age = 16;
         

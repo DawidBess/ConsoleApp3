@@ -2,9 +2,11 @@ namespace ConsoleApp3;
 
 public class Person
 {
-    public Person(string name)
+    public Person(string name, int age, double weight)
     {
         this.Name = name;
+        this.Age = age;
+        this.Weight = weight;
     }
     
     public double Weight { get; set; }
