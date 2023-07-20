@@ -20,11 +20,11 @@ internal class Program
         {
             Console.WriteLine("waza tyle samo");
         }
-        else if (p2.Age < p1.Age);
+        else if (p2.Age < p1.Age)
         {
             Console.WriteLine( p2.Name + " jest lzejszy");
         }
-        else if (p2.Age > p1.Age);
+        else if (p2.Age > p1.Age)
         {
             Console.WriteLine( p1.Name + " jest lzejszy");
         }
