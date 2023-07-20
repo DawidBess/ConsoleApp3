@@ -36,13 +36,11 @@ internal class Program
         {
             Console.WriteLine("Są w tym samym wieku");
         }
-
-        p2.AmIHeavier(p1); 
-        if (p2.Age < p1.Age)
+        else if (p2.Age < p1.Age)
         {
             Console.WriteLine( p2.Name + " jest młodszy");
         }
-        if (p1.Age < p2.Age)
+        else if (p1.Age < p2.Age)
         {
             Console.WriteLine( p1.Name + " jest młodszy");
         }
